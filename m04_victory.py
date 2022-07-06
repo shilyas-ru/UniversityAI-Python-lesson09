@@ -90,6 +90,7 @@ num_questions = 5  # Количество вопросов
 
 while is_play:
     print('Вводите год рождения указанного известного лица в формате dd.mm.yyyy.')
+    print('Прекращение ввода - наберите выход.\n')
     # Начали викторину с вопросами.
     for i in range(num_questions):
         num_index = lst_index[i]
